@@ -1,0 +1,9 @@
+{
+  "title": "Спикеры",
+  "sort": "700",
+  "templates": [
+    "select.html"
+  ],
+  "js": [
+  ]
+}

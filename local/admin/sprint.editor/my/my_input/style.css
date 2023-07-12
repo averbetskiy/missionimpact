@@ -1,0 +1,16 @@
+.sp-block-my_input .trumbowyg-textarea {
+    min-height:70px;
+}
+
+.sp-block-my_input .trumbowyg-editor{
+    min-height: 70px;
+    padding: 5px;
+}
+
+.sp-block-my_input .trumbowyg-box {
+    min-height: 70px;
+}
+
+.sp-input{
+    width: calc(100% - 10px);
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Шапка главной",
+  "sort": "950",
+  "templates": [
+    "box.html"
+  ]
+}

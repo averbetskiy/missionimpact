@@ -1,0 +1,7 @@
+{
+  "title": "Медиа раздел",
+  "sort": "950",
+  "templates": [
+    "box.html"
+  ]
+}

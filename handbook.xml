@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>1</id>
+		<name>Handbook</name>
+		<table_name>handbook</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>1</id>
+			<lid>ru</lid>
+			<name>Справочник</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>9</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Символьный код</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Символьный код</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Символьный код</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>10</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_TEXT_RU</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>40</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Текст на русском</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Текст на русском</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Текст на русском</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>11</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_TEXT_EN</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>40</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Текст на англ</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Текст на англ</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Текст на англ</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>12</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>45</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_LINK</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Ссылка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Ссылка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Ссылка</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_code>MAIN_BLOCK_MISSION_PARTNER_NAME</uf_code>
+			<uf_text_ru>Миссия партнерства</uf_text_ru>
+			<uf_text_en>Mission Partnership</uf_text_en>
+			<uf_name>Название блока Mission Partnership</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>2</id>
+			<uf_code>MAIN_BLOCK_MISSION_PARTNER_TEXT</uf_code>
+			<uf_text_ru>Вместе с новаторами и лидерами отрасли</uf_text_ru>
+			<uf_text_en>Together with innovators and industry leaders</uf_text_en>
+			<uf_name>Текст блока Mission Partnership</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>3</id>
+			<uf_code>MAIN_BLOCK_SOLUTIONS_NAME</uf_code>
+			<uf_text_ru>Решения</uf_text_ru>
+			<uf_text_en>Solutions</uf_text_en>
+			<uf_name>Название блока Solution</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>4</id>
+			<uf_code>MAIN_BLOCK_SOLUTIONS_TEXT_NAME</uf_code>
+			<uf_text_ru>Реализуем большое количество социальных проектов и инициатив</uf_text_ru>
+			<uf_text_en>We implement a large number of social projects and initiatives</uf_text_en>
+			<uf_name>Текст блока Solution</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>5</id>
+			<uf_code>MAIN_BLOCK_SOLUTIONS_SUBTEXT_NAME</uf_code>
+			<uf_text_ru>Вместе мы можем создавать инновационные и эффективные решения сделать этот мир безопаснее, справедливее и лучше.</uf_text_ru>
+			<uf_text_en>Together we can create innovative and effective solutions 						to make this world a safer, fairer and better place.</uf_text_en>
+			<uf_name>Подтекст блока solution</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>6</id>
+			<uf_code>MAIN_BLOCK_SOLUTIONS_VIEW_TEXT_NAME</uf_code>
+			<uf_text_ru>Просмотреть все решения →</uf_text_ru>
+			<uf_text_en>View all Solutions →</uf_text_en>
+			<uf_name>Просмотреть все решения</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>7</id>
+			<uf_code>LEARN_MORE</uf_code>
+			<uf_text_ru>Узнать больше →</uf_text_ru>
+			<uf_text_en>Learn more →</uf_text_en>
+			<uf_name>Узнать больше</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>8</id>
+			<uf_code>MAIN_BLOCK_NAME_EVENTS</uf_code>
+			<uf_text_ru>События</uf_text_ru>
+			<uf_text_en>Events</uf_text_en>
+			<uf_name>Название блока события</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>9</id>
+			<uf_code>MAIN_BLOCK_EVENTS_TEXT</uf_code>
+			<uf_text_ru>Взаимодействуйте, общайтесь и учитесь вместе с нами на наших мероприятиях</uf_text_ru>
+			<uf_text_en>Engage, connect, and learn with us through our events</uf_text_en>
+			<uf_name>Текст блока Событий</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>10</id>
+			<uf_code>MAIN_BLOCK_EVETNS_VIEW</uf_code>
+			<uf_text_ru>Посмотреть все события →</uf_text_ru>
+			<uf_text_en>View all events →</uf_text_en>
+			<uf_name>Посмотреть все события</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>11</id>
+			<uf_code>MAIN_BLOCK_NAME_MEDIA</uf_code>
+			<uf_text_ru>Медиа</uf_text_ru>
+			<uf_text_en>Media</uf_text_en>
+			<uf_name>Название блока Media</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>12</id>
+			<uf_code>MAIN_BLOCK_MEDIA_TEXT</uf_code>
+			<uf_text_ru>Наслаждайтесь нашим блогом</uf_text_ru>
+			<uf_text_en>Enjoy our Blog</uf_text_en>
+			<uf_name>Текст блока Media</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>13</id>
+			<uf_code>MAIN_NAME_RECENT</uf_code>
+			<uf_text_ru>Свежие</uf_text_ru>
+			<uf_text_en>Recent</uf_text_en>
+			<uf_name>Название Recent</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>14</id>
+			<uf_code>MAIN_NAME_NEWS</uf_code>
+			<uf_text_ru>Новости</uf_text_ru>
+			<uf_text_en>News</uf_text_en>
+			<uf_name>Название News</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>15</id>
+			<uf_code>MAIN_NAME_ARTICLES</uf_code>
+			<uf_text_ru>Статьи</uf_text_ru>
+			<uf_text_en>Articles</uf_text_en>
+			<uf_name>Название Articles</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>16</id>
+			<uf_code>MAIN_NAME_PODCAST</uf_code>
+			<uf_text_ru>Подкаст</uf_text_ru>
+			<uf_text_en>Podcast</uf_text_en>
+			<uf_name>Название Podcast</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>17</id>
+			<uf_code>MAIN_BLOCK_MEDIA_VIEW</uf_code>
+			<uf_text_ru>Просмотреть все Медиа →</uf_text_ru>
+			<uf_text_en>View all Media →</uf_text_en>
+			<uf_name>Просмотреть все Медиа</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>18</id>
+			<uf_code>LEARN_MORE_2</uf_code>
+			<uf_text_ru>Узнать больше</uf_text_ru>
+			<uf_text_en>Learn more</uf_text_en>
+			<uf_name>Learn more</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>19</id>
+			<uf_code>NAME_THERE_CASES</uf_code>
+			<uf_text_ru>Кейсы</uf_text_ru>
+			<uf_text_en>There are cases</uf_text_en>
+			<uf_name>Партнеры кейсы</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>20</id>
+			<uf_code>NAME_CASES</uf_code>
+			<uf_text_ru>Кейсы</uf_text_ru>
+			<uf_text_en>Cases</uf_text_en>
+			<uf_name>Название кейсы</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>21</id>
+			<uf_code>TEXT_UPCOMING_EVENT</uf_code>
+			<uf_text_ru>Предстоящее событие</uf_text_ru>
+			<uf_text_en>Upcoming event</uf_text_en>
+			<uf_name>Текст Предстоящее событие</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>22</id>
+			<uf_code>TEXT_NEXT_EVENT</uf_code>
+			<uf_text_ru>Следующее событие</uf_text_ru>
+			<uf_text_en>Next event</uf_text_en>
+			<uf_name>Текст Следующее событие</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>23</id>
+			<uf_code>NAME_READ_MORE</uf_code>
+			<uf_text_ru>Читать больше →</uf_text_ru>
+			<uf_text_en>Read More →</uf_text_en>
+			<uf_name>Название Read More</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>24</id>
+			<uf_code>LETS_GO</uf_code>
+			<uf_text_ru>Вперед →</uf_text_ru>
+			<uf_text_en>Let’s go →</uf_text_en>
+			<uf_name>Вперед</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>25</id>
+			<uf_code>BACK_TO_BLOG</uf_code>
+			<uf_text_ru>← Назад в блог</uf_text_ru>
+			<uf_text_en>← Back to Blog</uf_text_en>
+			<uf_name>Back to Blog</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>26</id>
+			<uf_code>BACK_TO_INSIGHTS</uf_code>
+			<uf_text_ru>← Назад к Статистике</uf_text_ru>
+			<uf_text_en>← Back to Insights</uf_text_en>
+			<uf_name>Back to Insights</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>27</id>
+			<uf_code>EXPLORE</uf_code>
+			<uf_text_ru>Пройти курс →</uf_text_ru>
+			<uf_text_en>Explore →</uf_text_en>
+			<uf_name>Explore</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>28</id>
+			<uf_code>ALL_TOPICS</uf_code>
+			<uf_text_ru>Все темы</uf_text_ru>
+			<uf_text_en>All topics</uf_text_en>
+			<uf_name>All topics</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>29</id>
+			<uf_code>BY</uf_code>
+			<uf_text_ru>При</uf_text_ru>
+			<uf_text_en>By</uf_text_en>
+			<uf_name>By</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>30</id>
+			<uf_code>BACK_TO_COURSES</uf_code>
+			<uf_text_ru>← Назад в Курсы</uf_text_ru>
+			<uf_text_en>← Back to Courses</uf_text_en>
+			<uf_name>Back to Courses</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>31</id>
+			<uf_code>LANGUAGE</uf_code>
+			<uf_text_ru>Язык</uf_text_ru>
+			<uf_text_en>Language</uf_text_en>
+			<uf_name>Language</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>32</id>
+			<uf_code>LEVEL</uf_code>
+			<uf_text_ru>Формат</uf_text_ru>
+			<uf_text_en />
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>33</id>
+			<uf_code>DURATION</uf_code>
+			<uf_text_ru>Продолжительность</uf_text_ru>
+			<uf_text_en>Duration</uf_text_en>
+			<uf_name>Duration</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>34</id>
+			<uf_code>CERTIFICATE</uf_code>
+			<uf_text_ru>Сертификат</uf_text_ru>
+			<uf_text_en>Certificate</uf_text_en>
+			<uf_name>Certificate</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>35</id>
+			<uf_code>OTHER_COURSES</uf_code>
+			<uf_text_ru>Другие Курсы</uf_text_ru>
+			<uf_text_en>Other Courses</uf_text_en>
+			<uf_name>Другие курсы</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>36</id>
+			<uf_code>BOTTOM_TEXT</uf_code>
+			<uf_text_ru>Все права защищены.</uf_text_ru>
+			<uf_text_en>All rights reserved.</uf_text_en>
+			<uf_name>Все права защищены.</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>37</id>
+			<uf_code>DIVE_IN</uf_code>
+			<uf_text_ru />
+			<uf_text_en>Dive in</uf_text_en>
+			<uf_name>Dive in</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>38</id>
+			<uf_code>BLOG</uf_code>
+			<uf_text_ru>Блог</uf_text_ru>
+			<uf_text_en>Blog</uf_text_en>
+			<uf_name>blog</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>39</id>
+			<uf_code>COURSES</uf_code>
+			<uf_text_ru>Курсы</uf_text_ru>
+			<uf_text_en>Courses</uf_text_en>
+			<uf_name>Courses</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>40</id>
+			<uf_code>COURSES_TEXT_1</uf_code>
+			<uf_text_ru>Учитесь у ведущих экспертов отрасли.&lt;br&gt; Все курсы сопровождаются субтитрами и сертификатами.</uf_text_ru>
+			<uf_text_en>Learn with industry leading experts.&lt;br&gt; All courses come with subtitles and certificates.</uf_text_en>
+			<uf_name>Курсы текст 1</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>41</id>
+			<uf_code>COURSES_TEXT_2</uf_code>
+			<uf_text_ru>Наслаждайтесь обучением!</uf_text_ru>
+			<uf_text_en>Enjoy Learning!</uf_text_en>
+			<uf_name>Enjoy Learning!</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>42</id>
+			<uf_code>COURSES_TEXT_3</uf_code>
+			<uf_text_ru>доступных курсов</uf_text_ru>
+			<uf_text_en>courses available</uf_text_en>
+			<uf_name>доступные курсы</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>43</id>
+			<uf_code>INSIGHTS</uf_code>
+			<uf_text_ru>Инсайты</uf_text_ru>
+			<uf_text_en>Insights</uf_text_en>
+			<uf_name>Инсайты</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>44</id>
+			<uf_code>ALL_CASES</uf_code>
+			<uf_text_ru>Все кейсы</uf_text_ru>
+			<uf_text_en>All Cases</uf_text_en>
+			<uf_name>All Cases</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>45</id>
+			<uf_code>ALL_CONTRIBUTORS</uf_code>
+			<uf_text_ru>Все персоны</uf_text_ru>
+			<uf_text_en>All Contributors</uf_text_en>
+			<uf_name>All Contributors</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>46</id>
+			<uf_code>RECENT</uf_code>
+			<uf_text_ru>Недавние</uf_text_ru>
+			<uf_text_en>Recent</uf_text_en>
+			<uf_name>Recent</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>47</id>
+			<uf_code>ALL_SOLUTIONS</uf_code>
+			<uf_text_ru>Все решения</uf_text_ru>
+			<uf_text_en>All Solutions</uf_text_en>
+			<uf_name>All Solutions</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>48</id>
+			<uf_code>EVENTS</uf_code>
+			<uf_text_ru>События</uf_text_ru>
+			<uf_text_en>Events</uf_text_en>
+			<uf_name>Events</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>49</id>
+			<uf_code>PAGE_404</uf_code>
+			<uf_text_ru>404</uf_text_ru>
+			<uf_text_en>404</uf_text_en>
+			<uf_name>404</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>50</id>
+			<uf_code>PAGE_404_TEXT1</uf_code>
+			<uf_text_ru>Такой</uf_text_ru>
+			<uf_text_en>The page</uf_text_en>
+			<uf_name>The page</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>51</id>
+			<uf_code>PAGE_404_TEXT2</uf_code>
+			<uf_text_ru>страницы</uf_text_ru>
+			<uf_text_en>you are looking</uf_text_en>
+			<uf_name>ты смотришь</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>52</id>
+			<uf_code>PAGE_404_TEXT3</uf_code>
+			<uf_text_ru>у нас нет.</uf_text_ru>
+			<uf_text_en>not found</uf_text_en>
+			<uf_name>not found</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>53</id>
+			<uf_code>PAGE_404_TEXT_BOTTOM</uf_code>
+			<uf_text_ru>Не переживайте!</uf_text_ru>
+			<uf_text_en>Don’t worry. Go back to the</uf_text_en>
+			<uf_name>Don’t worry. Go back to the</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>54</id>
+			<uf_code>HOME_PAGE</uf_code>
+			<uf_text_ru>На главной еще много интересного! →</uf_text_ru>
+			<uf_text_en>home page →</uf_text_en>
+			<uf_name>домашняя страница</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>55</id>
+			<uf_code>ALL_POSTS</uf_code>
+			<uf_text_ru>Все посты</uf_text_ru>
+			<uf_text_en>All Posts</uf_text_en>
+			<uf_name>All Posts</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>56</id>
+			<uf_code>ALL_EVENTS</uf_code>
+			<uf_text_ru>Все события</uf_text_ru>
+			<uf_text_en>All Events</uf_text_en>
+			<uf_name>All Events</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>57</id>
+			<uf_code>LISTING</uf_code>
+			<uf_text_ru>Список</uf_text_ru>
+			<uf_text_en>Listing</uf_text_en>
+			<uf_name>Listing</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>58</id>
+			<uf_code>CALENDAR</uf_code>
+			<uf_text_ru>Календарь</uf_text_ru>
+			<uf_text_en>Calendar</uf_text_en>
+			<uf_name>Calendar</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>59</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Mission Impact</uf_text_ru>
+			<uf_text_en>Mission Impact</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/</uf_link>
+		</item>
+		<item>
+			<id>60</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>О нас</uf_text_ru>
+			<uf_text_en>About</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/about/</uf_link>
+		</item>
+		<item>
+			<id>61</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>О партнерах</uf_text_ru>
+			<uf_text_en>About partner</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/about_partner/</uf_link>
+		</item>
+		<item>
+			<id>62</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Участники</uf_text_ru>
+			<uf_text_en>Contributors</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/contributors/</uf_link>
+		</item>
+		<item>
+			<id>63</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Решения</uf_text_ru>
+			<uf_text_en>Solutions</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/solutions/</uf_link>
+		</item>
+		<item>
+			<id>64</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Dive In</uf_text_ru>
+			<uf_text_en>Dive In</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/dive-in/</uf_link>
+		</item>
+		<item>
+			<id>65</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>События</uf_text_ru>
+			<uf_text_en>Events</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/events/</uf_link>
+		</item>
+		<item>
+			<id>66</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Блог</uf_text_ru>
+			<uf_text_en>Blog</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/blog/</uf_link>
+		</item>
+		<item>
+			<id>67</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Курсы</uf_text_ru>
+			<uf_text_en>Courses</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/courses/</uf_link>
+		</item>
+		<item>
+			<id>68</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Инсайты</uf_text_ru>
+			<uf_text_en>Insights</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/insights/</uf_link>
+		</item>
+		<item>
+			<id>69</id>
+			<uf_code>LETS_MODAL_BUTTON</uf_code>
+			<uf_text_ru>Присоединяйся! </uf_text_ru>
+			<uf_text_en>Join for impact</uf_text_en>
+			<uf_name>Let’s Impact</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>70</id>
+			<uf_code>LETS_MODAL_TITLE</uf_code>
+			<uf_text_ru>Присоединяйся! </uf_text_ru>
+			<uf_text_en>Join for impact</uf_text_en>
+			<uf_name>Let’s Impact</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>71</id>
+			<uf_code>LETS_MODAL_DESC</uf_code>
+			<uf_text_ru>Вместе мы можем создавать инновационные и эффективные решения, чтобы этот мир стал безопаснее, справедливее и лучше</uf_text_ru>
+			<uf_text_en>Together we can create innovative and effective solutions to make
+                        this world a safer, fairer and better place</uf_text_en>
+			<uf_name>LETS_MODAL_DESC</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>72</id>
+			<uf_code>LETS_MODAL_INFO</uf_code>
+			<uf_text_ru>Пожалуйста, заполните форму ниже, чтобы соответствующий представитель от Impact Mission мог связаться с вами</uf_text_ru>
+			<uf_text_en>Please fill out the form below so the appropriate representative
+                        from Mission Impact can contact you.</uf_text_en>
+			<uf_name>LETS_MODAL_INFO</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>73</id>
+			<uf_code>LETS_MODAL_SEND</uf_code>
+			<uf_text_ru>Отправить заявку</uf_text_ru>
+			<uf_text_en>Send the application</uf_text_en>
+			<uf_name>Отправить заявку</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>74</id>
+			<uf_code>LETS_MODAL_PRIVACY</uf_code>
+			<uf_text_ru>Отправляя эту форму, я подтверждаю, что прочитал и понял&lt;a href=&quot;/policy&quot; target=&quot;_blank&quot;&gt;Политику конфидициальности Росатома&lt;/a&gt;</uf_text_ru>
+			<uf_text_en>By submitting this form, I acknowledge that I have
+                                    read and understand the &lt;a href=&quot;/policy&quot; target=&quot;_blank&quot;&gt;Rosatom Privacy
+                                        Policy&lt;/a&gt;</uf_text_en>
+			<uf_name>LETS_MODAL_PRIVACY</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>75</id>
+			<uf_code>FORM_TEXT_SUCCES</uf_code>
+			<uf_text_ru>Форма успешно отправленна</uf_text_ru>
+			<uf_text_en>Form submitted successfully</uf_text_en>
+			<uf_name>Form submitted successfully</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>76</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Кейсы</uf_text_ru>
+			<uf_text_en>Cases</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/cases/</uf_link>
+		</item>
+		<item>
+			<id>77</id>
+			<uf_code>lets_success-title</uf_code>
+			<uf_text_ru>Спасибо за заявку!</uf_text_ru>
+			<uf_text_en>Thank you!</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>78</id>
+			<uf_code>lets_success-text</uf_code>
+			<uf_text_ru>Ваша заявка принята и представитель Mission Impact свяжется с вами в ближайшее время!</uf_text_ru>
+			<uf_text_en>Your application has been received and representative from Mission Impact will contact you soon!</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>79</id>
+			<uf_code>lets_success-button</uf_code>
+			<uf_text_ru>Вернуться на главную</uf_text_ru>
+			<uf_text_en>Back to home</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>80</id>
+			<uf_code>TEST</uf_code>
+			<uf_text_ru>Тесты</uf_text_ru>
+			<uf_text_en>Tests</uf_text_en>
+			<uf_name>test</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>81</id>
+			<uf_code>TEST_HTAG</uf_code>
+			<uf_text_ru>Dive in</uf_text_ru>
+			<uf_text_en>Dive in</uf_text_en>
+			<uf_name>TEST_HTAG</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>82</id>
+			<uf_code>ALL_TEST</uf_code>
+			<uf_text_ru>Все тесты</uf_text_ru>
+			<uf_text_en>ALL TEST</uf_text_en>
+			<uf_name>Все тесты</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>83</id>
+			<uf_code>NAME_READ_MORE_TEST</uf_code>
+			<uf_text_ru>Пройти →</uf_text_ru>
+			<uf_text_en>Lets go →</uf_text_en>
+			<uf_name>Кнопка для списка тестов</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>84</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Тесты</uf_text_ru>
+			<uf_text_en>Tests</uf_text_en>
+			<uf_name>title</uf_name>
+			<uf_link>/test/</uf_link>
+		</item>
+		<item>
+			<id>85</id>
+			<uf_code>BACK_TO_TEST</uf_code>
+			<uf_text_ru>← Назад в тесты</uf_text_ru>
+			<uf_text_en>← Back to tests</uf_text_en>
+			<uf_name>Кнопка назад в тестах</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>86</id>
+			<uf_code>BACK_TO_TEST_LINK</uf_code>
+			<uf_text_ru>/test/</uf_text_ru>
+			<uf_text_en>/test/</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>87</id>
+			<uf_code>INDEX_HERO_DATE</uf_code>
+			<uf_text_ru>Недавние события</uf_text_ru>
+			<uf_text_en>Recent Events</uf_text_en>
+			<uf_name>Текст недавние в hero на главной</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>88</id>
+			<uf_code>LEVEL</uf_code>
+			<uf_text_ru />
+			<uf_text_en />
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>89</id>
+			<uf_code>RECENT_PHOTOS</uf_code>
+			<uf_text_ru>Последние фотографии</uf_text_ru>
+			<uf_text_en>Recent photos</uf_text_en>
+			<uf_name>Последние фотографии</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>90</id>
+			<uf_code>RECENT_VIDEOS</uf_code>
+			<uf_text_ru>Последние видео</uf_text_ru>
+			<uf_text_en>Recent videos</uf_text_en>
+			<uf_name>Последние видео</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>91</id>
+			<uf_code>ALL_PHOTOS</uf_code>
+			<uf_text_ru>Просмотреть все фотографии →</uf_text_ru>
+			<uf_text_en>View all Photos →</uf_text_en>
+			<uf_name>Просмотреть все фотографии</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>92</id>
+			<uf_code>ALL_VIDEOS</uf_code>
+			<uf_text_ru>Просмотреть все видео →</uf_text_ru>
+			<uf_text_en>View all Videos →</uf_text_en>
+			<uf_name>Просмотреть все видео</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>93</id>
+			<uf_code>NAME_PHOTOS</uf_code>
+			<uf_text_ru>фото</uf_text_ru>
+			<uf_text_en>photos</uf_text_en>
+			<uf_name>photos</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>94</id>
+			<uf_code>NAME_SECTION_PHOTOS</uf_code>
+			<uf_text_ru>Фото</uf_text_ru>
+			<uf_text_en>Photos</uf_text_en>
+			<uf_name>Название раздела фото</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>95</id>
+			<uf_code>NAME_SECTION_VIDEOS</uf_code>
+			<uf_text_ru>Видео</uf_text_ru>
+			<uf_text_en>Videos</uf_text_en>
+			<uf_name>Название раздела видео</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>96</id>
+			<uf_code>SEARCH_PLACEHOLDER</uf_code>
+			<uf_text_ru>Введите текст для поиска...</uf_text_ru>
+			<uf_text_en>Enter text for search...</uf_text_en>
+			<uf_name>SEARCH_PLACEHOLDER</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>97</id>
+			<uf_code>SEARCH_CLEAR</uf_code>
+			<uf_text_ru>Очистить</uf_text_ru>
+			<uf_text_en>Clear</uf_text_en>
+			<uf_name>SEARCH_CLEAR</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>98</id>
+			<uf_code>SEARCH_NAME</uf_code>
+			<uf_text_ru>Поиск</uf_text_ru>
+			<uf_text_en>Search</uf_text_en>
+			<uf_name>SEARCH_NAME</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>99</id>
+			<uf_code>SEARCH_ALL</uf_code>
+			<uf_text_ru>Все результаты</uf_text_ru>
+			<uf_text_en>All Results</uf_text_en>
+			<uf_name>SEARCH_ALL</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>100</id>
+			<uf_code>SEARCH_SOLUTIONS</uf_code>
+			<uf_text_ru>Решения</uf_text_ru>
+			<uf_text_en>Solutions</uf_text_en>
+			<uf_name>SEARCH_SOLUTIONS</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>101</id>
+			<uf_code>SEARCH_CASES</uf_code>
+			<uf_text_ru>Кейсы</uf_text_ru>
+			<uf_text_en>Cases</uf_text_en>
+			<uf_name>SEARCH_CASES</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>102</id>
+			<uf_code>SEARCH_INSIGHTS</uf_code>
+			<uf_text_ru>Инсайты</uf_text_ru>
+			<uf_text_en>Insights</uf_text_en>
+			<uf_name>SEARCH_INSIGHTS</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>103</id>
+			<uf_code>SEARCH_EVENTS</uf_code>
+			<uf_text_ru>События</uf_text_ru>
+			<uf_text_en>Events</uf_text_en>
+			<uf_name>SEARCH_EVENTS</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>104</id>
+			<uf_code>SEARCH_BLOG</uf_code>
+			<uf_text_ru>Блог</uf_text_ru>
+			<uf_text_en>Blog</uf_text_en>
+			<uf_name>SEARCH_BLOG</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>105</id>
+			<uf_code>SEARCH_COURSES</uf_code>
+			<uf_text_ru>Курсы</uf_text_ru>
+			<uf_text_en>Courses</uf_text_en>
+			<uf_name>SEARCH_COURSES</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>106</id>
+			<uf_code>SEARCH_MEDIA</uf_code>
+			<uf_text_ru>Фото&amp;amp;Видео</uf_text_ru>
+			<uf_text_en>Photo&amp;amp;Video</uf_text_en>
+			<uf_name>SEARCH_MEDIA</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>107</id>
+			<uf_code>SEARCH_RESULT</uf_code>
+			<uf_text_ru>Посмотреть все результаты →</uf_text_ru>
+			<uf_text_en>View all Results →</uf_text_en>
+			<uf_name>SEARCH_RESULT</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>108</id>
+			<uf_code>SEARCH_TEST</uf_code>
+			<uf_text_ru>Тесты</uf_text_ru>
+			<uf_text_en>Tests</uf_text_en>
+			<uf_name>SEARCH_TEST</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>109</id>
+			<uf_code>SEARCH_SPEAKER</uf_code>
+			<uf_text_ru>Контрибьютеры</uf_text_ru>
+			<uf_text_en>Contributors</uf_text_en>
+			<uf_name>SEARCH_SPEAKER</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>110</id>
+			<uf_code>SEARCH_PARTNER</uf_code>
+			<uf_text_ru>Партнеры</uf_text_ru>
+			<uf_text_en>Partners</uf_text_en>
+			<uf_name>SEARCH_PARTNER</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>111</id>
+			<uf_code>SEARCH_RESULT_EMPTY_TITLE</uf_code>
+			<uf_text_ru>К сожалению ничего не найдено.</uf_text_ru>
+			<uf_text_en>Try another query or change your search language.</uf_text_en>
+			<uf_name>Заголовок в поиске когда не найдено</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>112</id>
+			<uf_code>SEARCH_RESULT_EMPTY_TEXT</uf_code>
+			<uf_text_ru>Попробуйте ввести другой запрос или измените язык поиска.</uf_text_ru>
+			<uf_text_en>Try another query or change your search language.</uf_text_en>
+			<uf_name>Текст в поиске когда не найдено</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>113</id>
+			<uf_code>PAGE_MEDIA_TITLE</uf_code>
+			<uf_text_ru>Фото и Видео</uf_text_ru>
+			<uf_text_en>Photos and Videos</uf_text_en>
+			<uf_name>Заголовок на странице media</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>114</id>
+			<uf_code>TITLE</uf_code>
+			<uf_text_ru>Фото и Видео</uf_text_ru>
+			<uf_text_en>Photo and Video</uf_text_en>
+			<uf_name />
+			<uf_link>/media/</uf_link>
+		</item>
+		<item>
+			<id>115</id>
+			<uf_code>SIGN_UP</uf_code>
+			<uf_text_ru>Зарегистрироваться</uf_text_ru>
+			<uf_text_en>Sign up</uf_text_en>
+			<uf_name>Зарегистрироваться</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>116</id>
+			<uf_code>SIGN_IN_TITLE</uf_code>
+			<uf_text_ru>Присоединяйтесь для воздействия</uf_text_ru>
+			<uf_text_en>Join for Impact</uf_text_en>
+			<uf_name>Join for Impact</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>117</id>
+			<uf_code>SIGN_IN_MEMBER</uf_code>
+			<uf_text_ru>Вы участник?</uf_text_ru>
+			<uf_text_en>Are you a member?</uf_text_en>
+			<uf_name>Are you a member?</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>118</id>
+			<uf_code>SIGN_IN_LOG_IN</uf_code>
+			<uf_text_ru>Войти →</uf_text_ru>
+			<uf_text_en>Log in →</uf_text_en>
+			<uf_name>Log in</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>119</id>
+			<uf_code>SIGN_IN_NAME</uf_code>
+			<uf_text_ru>Имя</uf_text_ru>
+			<uf_text_en>First Name</uf_text_en>
+			<uf_name>First Name</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>120</id>
+			<uf_code>SIGN_IN_LAST_NAME</uf_code>
+			<uf_text_ru>Фамилия</uf_text_ru>
+			<uf_text_en>Last Name</uf_text_en>
+			<uf_name>Last Name</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>121</id>
+			<uf_code>SIGN_IN_EMAIL</uf_code>
+			<uf_text_ru>E-mail</uf_text_ru>
+			<uf_text_en>E-mail</uf_text_en>
+			<uf_name>E-mail</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>122</id>
+			<uf_code>SIGN_IN_PASSWORD</uf_code>
+			<uf_text_ru>Пароль</uf_text_ru>
+			<uf_text_en>Password</uf_text_en>
+			<uf_name>Password</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>123</id>
+			<uf_code>SIGN_IN_GENEREATE</uf_code>
+			<uf_text_ru>Создать надежный пароль</uf_text_ru>
+			<uf_text_en>Generate strong password</uf_text_en>
+			<uf_name>Generate strong password</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>124</id>
+			<uf_code>SIGN_IN_GENEREATE_PLACE</uf_code>
+			<uf_text_ru>Не короче 8 букв и цифр</uf_text_ru>
+			<uf_text_en>Not shorter than 8 letters and numbers</uf_text_en>
+			<uf_name>Not shorter than 8 letters and numbers</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>125</id>
+			<uf_code>SIGN_IN_GENEREATE_TERMS</uf_code>
+			<uf_text_ru>Я прочитал и принимаю &lt;a href=&quot;javascript:void(0)&quot; data-code=&quot;terms_modal&quot; class=&quot;open_modal_terms&quot;&gt;Условия использования&lt;/a&gt;</uf_text_ru>
+			<uf_text_en>I have read and accept the &lt;a href=&quot;javascript:void(0)&quot; data-code=&quot;terms_modal&quot;  class=&quot;open_modal_terms&quot;&gt;Terms and Conditions&lt;/a&gt;</uf_text_en>
+			<uf_name>Not shorter than 8 letters and numbers</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>126</id>
+			<uf_code>SIGN_IN_SUBSCRIBE</uf_code>
+			<uf_text_ru>Получать дайджесты и полезную информацию</uf_text_ru>
+			<uf_text_en>Subscribe to the digest</uf_text_en>
+			<uf_name>Subscribe to the digest</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>127</id>
+			<uf_code>SIGN_IN_BUTTON</uf_code>
+			<uf_text_ru>Присоединиться</uf_text_ru>
+			<uf_text_en>Join</uf_text_en>
+			<uf_name>Join</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>128</id>
+			<uf_code>SIGN_IN</uf_code>
+			<uf_text_ru>Войти</uf_text_ru>
+			<uf_text_en>Sign In</uf_text_en>
+			<uf_name>Sign In</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>129</id>
+			<uf_code>SIGN_IN_NOT_MEMBER</uf_code>
+			<uf_text_ru>Еще не зарегистрированы?</uf_text_ru>
+			<uf_text_en>Not a member yet?</uf_text_en>
+			<uf_name>Not a member yet?</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>130</id>
+			<uf_code>SIGN_IN_REGISTER</uf_code>
+			<uf_text_ru>Зарегистрироваться →</uf_text_ru>
+			<uf_text_en>Register →</uf_text_en>
+			<uf_name>Register</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>131</id>
+			<uf_code>SIGN_IN_REMEMBER</uf_code>
+			<uf_text_ru>Не выходить из системы</uf_text_ru>
+			<uf_text_en>Keep me logged in</uf_text_en>
+			<uf_name>Keep me logged in</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>132</id>
+			<uf_code>SIGN_IN_ENTER</uf_code>
+			<uf_text_ru>Войти</uf_text_ru>
+			<uf_text_en>Enter</uf_text_en>
+			<uf_name>Enter</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>133</id>
+			<uf_code>SIGN_IN_FORGOT</uf_code>
+			<uf_text_ru>Забыли пароль?</uf_text_ru>
+			<uf_text_en>Forgot your password?</uf_text_en>
+			<uf_name>Forgot your password?</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>134</id>
+			<uf_code>PROFILE_BASIC</uf_code>
+			<uf_text_ru>Основная информация</uf_text_ru>
+			<uf_text_en>Basic information</uf_text_en>
+			<uf_name>Basic information</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>136</id>
+			<uf_code>PROFILE_PROFILE</uf_code>
+			<uf_text_ru>Профиль</uf_text_ru>
+			<uf_text_en>Profile</uf_text_en>
+			<uf_name>Profile</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>137</id>
+			<uf_code>PROFILE_GENDER</uf_code>
+			<uf_text_ru>Пол</uf_text_ru>
+			<uf_text_en>Gender</uf_text_en>
+			<uf_name>Gender</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>138</id>
+			<uf_code>PROFILE_DATE_BIRTH</uf_code>
+			<uf_text_ru>День рождения</uf_text_ru>
+			<uf_text_en>Date of Birth</uf_text_en>
+			<uf_name>Date of Birth</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>139</id>
+			<uf_code>PROFILE_COUNTRY</uf_code>
+			<uf_text_ru>Страна/ Регион</uf_text_ru>
+			<uf_text_en>Country/ Region</uf_text_en>
+			<uf_name>Country/ Region</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>140</id>
+			<uf_code>PROFILE_CITY</uf_code>
+			<uf_text_ru>Город</uf_text_ru>
+			<uf_text_en>City</uf_text_en>
+			<uf_name>City</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>141</id>
+			<uf_code>PROFILE_PHONE</uf_code>
+			<uf_text_ru>Телефон</uf_text_ru>
+			<uf_text_en>Phone</uf_text_en>
+			<uf_name>Phone</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>142</id>
+			<uf_code>PROFILE_SCOPE</uf_code>
+			<uf_text_ru>Сфера интересов</uf_text_ru>
+			<uf_text_en>Scope of interests</uf_text_en>
+			<uf_name>Scope of interests</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>143</id>
+			<uf_code>PROFILE_EDIT</uf_code>
+			<uf_text_ru>Изменить информацию →</uf_text_ru>
+			<uf_text_en>Edit information →</uf_text_en>
+			<uf_name>Edit information</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>144</id>
+			<uf_code>PROFILE_SAVE</uf_code>
+			<uf_text_ru>Сохранить изменения</uf_text_ru>
+			<uf_text_en>Save Changes</uf_text_en>
+			<uf_name>Save Changes</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>145</id>
+			<uf_code>PROFILE_PROFESSIONAL</uf_code>
+			<uf_text_ru>Профессиональные данные</uf_text_ru>
+			<uf_text_en>Professional Data</uf_text_en>
+			<uf_name>Professional Data</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>146</id>
+			<uf_code>PROFILE_COMPLETE_CAREER</uf_code>
+			<uf_text_ru>Заполните свой профиль информацией о карьере</uf_text_ru>
+			<uf_text_en>Complete your profile with career information</uf_text_en>
+			<uf_name>Complete your profile with career information</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>147</id>
+			<uf_code>PROFILE_ORG</uf_code>
+			<uf_text_ru>Название компании/организации</uf_text_ru>
+			<uf_text_en>Company/ Organization name</uf_text_en>
+			<uf_name>Company/ Organization name</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>148</id>
+			<uf_code>PROFILE_NUMBER_EMPLOYEES</uf_code>
+			<uf_text_ru>Количество работников</uf_text_ru>
+			<uf_text_en>Number of employees</uf_text_en>
+			<uf_name>Number of employees</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>149</id>
+			<uf_code>PROFILE_ACTIVITY</uf_code>
+			<uf_text_ru>Сфера деятельности</uf_text_ru>
+			<uf_text_en>Field of activity</uf_text_en>
+			<uf_name>Field of activity</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>150</id>
+			<uf_code>PROFILE_POSITION</uf_code>
+			<uf_text_ru>Твоя позиция</uf_text_ru>
+			<uf_text_en>Your Position</uf_text_en>
+			<uf_name>Your Position</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>151</id>
+			<uf_code>FORM_TEXT_PROJECT</uf_code>
+			<uf_text_ru>Пожалуйста, заполните форму, чтобы представитель Impact Mission мог связаться с вами</uf_text_ru>
+			<uf_text_en>Please fill out the form so that an Impact Mission representative can contact you</uf_text_en>
+			<uf_name>Please fill out the form so that an Impact Mission representative can contact you</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>152</id>
+			<uf_code>FORM_PROJECT_BUTTON</uf_code>
+			<uf_text_ru>Отправить заявку</uf_text_ru>
+			<uf_text_en>Submit an application</uf_text_en>
+			<uf_name>Submit an application</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>153</id>
+			<uf_code>FORM_THANK_YOU</uf_code>
+			<uf_text_ru>Спасибо!</uf_text_ru>
+			<uf_text_en>Thank you!</uf_text_en>
+			<uf_name>Thank you!</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>154</id>
+			<uf_code>FORM_PROJECT_TEXT_SUCCESS</uf_code>
+			<uf_text_ru>Ваша заявка получена, и представитель Mission Impact свяжется с вами в ближайшее время!</uf_text_ru>
+			<uf_text_en>Your application has been received and a Mission Impact representative will contact you shortly!</uf_text_en>
+			<uf_name>Your application has been received and a Mission Impact representative will contact you shortly!</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>155</id>
+			<uf_code>VOTE</uf_code>
+			<uf_text_ru>Голосование</uf_text_ru>
+			<uf_text_en>Vote</uf_text_en>
+			<uf_name>Vote</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>156</id>
+			<uf_code>LETS_VOTE</uf_code>
+			<uf_text_ru>Давайте проголосуем →</uf_text_ru>
+			<uf_text_en>Let’s Vote →</uf_text_en>
+			<uf_name>Let’s Vote</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>157</id>
+			<uf_code>ENTER_PASSWORD</uf_code>
+			<uf_text_ru>Введите пароль</uf_text_ru>
+			<uf_text_en>Enter password</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>158</id>
+			<uf_code>UF_CUSTOMER_BEGGINER</uf_code>
+			<uf_text_ru>Новичок</uf_text_ru>
+			<uf_text_en>Begginer</uf_text_en>
+			<uf_name>Begginer</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>159</id>
+			<uf_code>UF_CUSTOMER_COMPETENT</uf_code>
+			<uf_text_ru>Продвинутый</uf_text_ru>
+			<uf_text_en>Competent</uf_text_en>
+			<uf_name>Competent</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>160</id>
+			<uf_code>UF_CUSTOMER_PROFICIENT</uf_code>
+			<uf_text_ru>Профессиональный</uf_text_ru>
+			<uf_text_en>Proficient</uf_text_en>
+			<uf_name>Proficient</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>161</id>
+			<uf_code>PROFILE_COMPLETE_PERCENT</uf_code>
+			<uf_text_ru>Профиль заполнен на #PERCENT#%</uf_text_ru>
+			<uf_text_en>Profile is #PERCENT#% complete</uf_text_en>
+			<uf_name>Profile is 15% complete</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>162</id>
+			<uf_code>PROFILE_STATUS_MAIN</uf_code>
+			<uf_text_ru>Мой статус — #STATUS#</uf_text_ru>
+			<uf_text_en>My status — #STATUS#</uf_text_en>
+			<uf_name>My status</uf_name>
+			<uf_link />
+		</item>
+		<item>
+			<id>163</id>
+			<uf_code>PROFILE_STATUS_INFO</uf_code>
+			<uf_text_ru>Добавьте больше информации о себе и пройдите курсы, чтобы повысить свой статус.&lt;br&gt;Чем выше статус, тем больше возможностей вам доступно</uf_text_ru>
+			<uf_text_en>Add more information about yourself and take courses to increase your status.&lt;br&gt;The higher the status, the more opportunities are available to you</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>164</id>
+			<uf_code>SIGN_IN_BACK</uf_code>
+			<uf_text_ru>← Назад</uf_text_ru>
+			<uf_text_en>← Back</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>165</id>
+			<uf_code>SIGN_IN_RESET</uf_code>
+			<uf_text_ru>Сброс пароля</uf_text_ru>
+			<uf_text_en>Reset Password</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>166</id>
+			<uf_code>SIGN_IN_RESET_TEXT</uf_code>
+			<uf_text_ru>Введите свой адрес электронной почты ниже, и мы вышлем вам ссылку для сброса пароля.</uf_text_ru>
+			<uf_text_en>Enter your e-mail address below and we will send you a link to reset your password.</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>167</id>
+			<uf_code>SIGN_IN_RESET_FULL_TEXT</uf_code>
+			<uf_text_ru>&lt;p&gt;Мы отправили вам электронное письмо с подтверждением.&lt;/p&gt;
+                 &lt;p&gt;Подтвердите свою учетную запись по ссылке в электронном письме и сбросьте пароль.&lt;/p&gt;
+                 &lt;p&gt;Если вы не получили от нас электронное письмо, проверьте папку со спамом или свяжитесь со службой поддержки.&lt;/p&gt;</uf_text_ru>
+			<uf_text_en>&lt;p&gt;We have sent you a verification e-mail.&lt;/p&gt;
+                &lt;p&gt;Please verify your account via the link in the e-mail and reset your password.&lt;/p&gt;
+                &lt;p&gt;If you don&apos;t receive an email from us, please check your spam folder or contact customer support.&lt;/p&gt;</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>168</id>
+			<uf_code>SIGN_IN_RESET_CONTACT</uf_code>
+			<uf_text_ru>Связаться со службой поддержки →</uf_text_ru>
+			<uf_text_en>Contact support →</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>169</id>
+			<uf_code>PROFILE_SETTINGS</uf_code>
+			<uf_text_ru>Настройки</uf_text_ru>
+			<uf_text_en>Settings</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>170</id>
+			<uf_code>PROFILE_LOGIN_DETAILS</uf_code>
+			<uf_text_ru>Данные для входа</uf_text_ru>
+			<uf_text_en>Login details</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>171</id>
+			<uf_code>PROFILE_CURRENT_PASS</uf_code>
+			<uf_text_ru>Текущий пароль</uf_text_ru>
+			<uf_text_en>Current Password</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>172</id>
+			<uf_code>PROFILE_NEW_PASS</uf_code>
+			<uf_text_ru>Новый пароль</uf_text_ru>
+			<uf_text_en>New Password</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>173</id>
+			<uf_code>PROFILE_PREFERNCES</uf_code>
+			<uf_text_ru>Настройки</uf_text_ru>
+			<uf_text_en>Preferences</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>174</id>
+			<uf_code>PROFILE_INTERFACE</uf_code>
+			<uf_text_ru>Язык интерфейса</uf_text_ru>
+			<uf_text_en>Interface language</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>175</id>
+			<uf_code>PROFILE_TIMEZONE</uf_code>
+			<uf_text_ru>Часовой пояс</uf_text_ru>
+			<uf_text_en>Timezone</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>176</id>
+			<uf_code>PROFILE_DATE_FORMAT</uf_code>
+			<uf_text_ru>Формат даты</uf_text_ru>
+			<uf_text_en>Date format</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>177</id>
+			<uf_code>PROFILE_SAVE</uf_code>
+			<uf_text_ru>Сохранить изменения</uf_text_ru>
+			<uf_text_en>Save Changes</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>178</id>
+			<uf_code>PROFILE_COVER</uf_code>
+			<uf_text_ru>Обложка</uf_text_ru>
+			<uf_text_en>Cover</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>179</id>
+			<uf_code>PROFILE_COVER_OPTIMAL</uf_code>
+			<uf_text_ru>Оптимальный размер 2800 х 400 пикселей</uf_text_ru>
+			<uf_text_en>Optimal size 2800 x 400px</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>180</id>
+			<uf_code>PROFILE_COVER_EDIT</uf_code>
+			<uf_text_ru>Изменить обложку</uf_text_ru>
+			<uf_text_en>Edit cover image</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>181</id>
+			<uf_code>PROFILE_COVER_REPLACE</uf_code>
+			<uf_text_ru>Заменить</uf_text_ru>
+			<uf_text_en>Replace</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>182</id>
+			<uf_code>PROFILE_CANCEL</uf_code>
+			<uf_text_ru>Отмена</uf_text_ru>
+			<uf_text_en>Cancel</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>183</id>
+			<uf_code>PROFILE_EDIT_SETTINGS</uf_code>
+			<uf_text_ru>Изменить →</uf_text_ru>
+			<uf_text_en>Edit →</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+		<item>
+			<id>184</id>
+			<uf_code>PROFILE_NOT_ADDED</uf_code>
+			<uf_text_ru>Не добавлено</uf_text_ru>
+			<uf_text_en>Not added</uf_text_en>
+			<uf_name />
+			<uf_link />
+		</item>
+	</items>
+</hiblock>
