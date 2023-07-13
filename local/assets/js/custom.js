@@ -112,12 +112,15 @@ $(document).ready(function(){
     })
     $('body').on('submit','.footer__subscribe-form',function(e){
         e.preventDefault();
-        var form = $(this);
+        var form = $(this),
+			formData = form.serialize(),
+			lang = getCookie("mi_lang");
+		formData = formData + '&lang=' + lang;
         if($(this).valid()) {
             $.ajax({
                 type: "POST",
                 url: '/ajax.php',
-                data: form.serialize(),
+                data: formData,
                 success: function (data) {
                     if(data == 'true'){
                         $('.subscribe_error').hide();

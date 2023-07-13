@@ -5,7 +5,7 @@
  */
 class UnisenderApi
 {
-    const url = 'https://api.unisender.com/ru/api/';
+    const url = 'https://api.unisender.com/%lang%/api/';
 
     /**
      * @param string $email
@@ -22,7 +22,7 @@ class UnisenderApi
             }
             $params['fields']['email'] = $email;
             $params['list_ids'] = $listIds;
-            $result = static::callMethod('subscribe',$params);
+            $result = static::callMethod('subscribe',$params,$siteId);
             if($result['error']){
                 throw new \Exception($result['error']);
             }
@@ -37,11 +37,20 @@ class UnisenderApi
      * @param array $params
      * @return mixed
      */
-    private static function callMethod(string $method,array $params){
+    private static function callMethod(string $method,array $params,string $siteId){
         $apiKey = \Bitrix\Main\Config\Option::get( "askaron.settings", "UF_UNISENDER_KEY");
         $params['format'] = 'json';
         $params['api_key'] = $apiKey;
-        $url = static::url.$method.'?'.http_build_query($params);
+		$lang = "en";
+		switch ($siteId) {
+			case "s1":
+				$lang = "en";
+				break;
+			case "s2":
+				$lang = "ru";
+				break;
+		}
+        $url = str_replace("%lang%", $lang, static::url).$method.'?'.http_build_query($params);
         $Curl = curl_init();
         curl_setopt_array($Curl, array(
             CURLOPT_SSL_VERIFYPEER => FALSE,

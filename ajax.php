@@ -374,12 +374,9 @@ switch ($action) {
         }
         break;
     case 'subscribe':
-        $lang = $_COOKIE['mi_lang'];
-        if(!$lang){
-            $lang = 's1';
-        }
         $email = $request->get('email');
-        UnisenderApi::subscribe($email,$lang);
+		$lang = $request->get('lang');
+      	UnisenderApi::subscribe($email,$lang);
         break;
     case 'module_progress':
         try {
