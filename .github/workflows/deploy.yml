@@ -21,6 +21,6 @@ jobs:
         cat ~/.ssh/known_hosts
         ls -la ~/.ssh/
     - name: connect and pull
-      run: ssh bitrix@51.250.7.167 ls
+      run: ssh bitrix@51.250.7.167 "ls && exit"
     - name: cleanup
       run: rm -rf ~/.ssh
