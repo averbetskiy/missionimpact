@@ -20,6 +20,16 @@ jobs:
         ssh-keyscan -H 51.250.7.167 > ~/.ssh/known_hosts
         cat ~/.ssh/known_hosts
         ls -la ~/.ssh/
+    - name: multiple command
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: 22
+        script: |
+          whoami
+          ls -al        
     - name: connect and pull
       run: ssh bitrix@51.250.7.167 "ls && exit"
     - name: cleanup
