@@ -1,3 +1,5 @@
+runs-on: self-hosted
+
 addons:
   ssh_known_hosts: 51.250.7.167
 
