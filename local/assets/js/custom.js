@@ -38,6 +38,40 @@ var validator = {
      
 }
 
+function setCookie(name, value, options = {}) {
+
+  options = {
+    path: '/',
+  };
+
+  if (options.expires instanceof Date) {
+    options.expires = options.expires.toUTCString();
+  }
+
+  let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+  for (let optionKey in options) {
+    updatedCookie += "; " + optionKey;
+    let optionValue = options[optionKey];
+    if (optionValue !== true) {
+      updatedCookie += "=" + optionValue;
+    }
+  }
+
+  document.cookie = updatedCookie;
+}
+
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function delete_cookie(name) {
+  document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
 if($('.projectHero__image').length > 0){
     $('body').addClass('header__transparent');
 }
@@ -214,13 +248,43 @@ $(document).ready(function(){
     })
     $('.settings_profile_form').on('click','.popup__settings-button',function(){
         var form = $(this).closest('form');
+		var formData = form.serialize();
         if($(form).valid()) {
             $.ajax({
                 type: "POST",
                 url: '/ajax.php',
-                data: form.serialize(),
+                data: formData,
                 success: function (data) {
+					console.log(data);
                     if(data == 'true') {
+						if (formData.indexOf("UF_LANG")) {
+							
+							var values = {};
+							$.each(form.serializeArray(), function (i, field) {
+								values[field.name] = field.value;
+							});
+
+							//Value Retrieval Function
+							var getValue = function (valueName) {
+								return values[valueName];
+							};
+
+							//Retrieve the Values
+							var UF_LANG = getValue("UF_LANG");
+							switch (UF_LANG) {
+								case undefined:
+									setCookie("mi_lang","s1");
+									break;
+								case "EN":
+									setCookie("mi_lang","s1");
+									break;
+								case "RU":
+									setCookie("mi_lang","s2");
+									break;
+								default:
+									setCookie("mi_lang","s1");
+							}
+						}
                         location.reload();
                     }
                 }
@@ -1328,24 +1392,41 @@ $(document).ready(function(){
 		});
 	}
     $("body").on("click",'.header__lang-current',function() {
-        $.ajax({
-            type: "POST",
-            url: "/ajax.php",
-            data: {'action':'lang'},
-            success: function (result) {
-				console.log(result);
-                if($('.duplicate').length > 0){
-                    var href = $('.duplicate').attr('data-href');
-                    if(href != ''){
-                        location.href = href;
-                    }else{
-                        location.reload();
-                    }
-                }else {
-                    location.reload();
-                }
-            }
-        });
+		let mi_lang = getCookie("mi_lang");
+		
+		switch (mi_lang) {
+		  case undefined:
+			setCookie("mi_lang","s2");
+			break;
+		  case "s1":
+			setCookie("mi_lang","s2");
+			break;
+		  case "s2":
+			setCookie("mi_lang","s1");
+			break;
+		  default:
+			setCookie("mi_lang","s2");
+		}
+		
+		location.reload();
+//        $.ajax({
+//            type: "POST",
+//            url: "/ajax.php",
+//            data: {'action':'lang'},
+//            success: function (result) {
+//				console.log(result);
+//                if($('.duplicate').length > 0){
+//                    var href = $('.duplicate').attr('data-href');
+//                    if(href != ''){
+//                        location.href = href;
+//                    }else{
+//                        location.reload();
+//                    }
+//                } else {
+//                    location.reload();
+//                }
+//            }
+//        });
     })
     $("body").on("click",'.footer_menu_lang',function() {
         $.ajax({

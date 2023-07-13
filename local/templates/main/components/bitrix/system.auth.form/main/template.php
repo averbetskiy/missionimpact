@@ -13,7 +13,7 @@ global $arHandBook;
     </div>
     <div class="login__popup-body">
 		<p class="login__popup-user__error"><?=$arHandBook['SIGN_IN_USER_NOT_ACTIVE']['UF_VALUE']?></p>
-		<form action="<?php //$arResult["AUTH_URL"];?>/personal/profile/" method="POST" class="login__popup-form auth_form validation" name="system_auth_form<?=$arResult["RND"]?>">
+		<form action="<?php $arResult["AUTH_URL"];?>" method="POST" class="login__popup-form auth_form validation" name="system_auth_form<?=$arResult["RND"]?>">
             <input type="hidden" name="AUTH_FORM" value="Y" />
             <input type="hidden" name="TYPE" value="AUTH" />
             <div class="login__popup-form__group">

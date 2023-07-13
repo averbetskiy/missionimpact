@@ -8,11 +8,11 @@ if($USER->IsAuthorized() && $_POST['USER_LOGIN'] && $_POST['USER_PASSWORD']){
         'filter' => ['ID' => $USER->GetID()]
     ]);
     if($arUser){
-        if($arUser['UF_LANG'] == 'RU'){
-            setcookie('mi_lang', 's2');
-        }else{
-            setcookie('mi_lang', 's1');
-        }
-        LocalRedirect($APPLICATION->GetCurPage());
+//        if($arUser['UF_LANG'] == 'RU'){
+//            setcookie('mi_lang', 's2');
+//        }else{
+//            setcookie('mi_lang', 's1');
+//        }
+        LocalRedirect("/personal/profile");
     }
 }

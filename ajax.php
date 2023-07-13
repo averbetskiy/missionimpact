@@ -11,17 +11,17 @@ $action = $request->get("action");
 global $USER;
 switch ($action) {
     case 'lang':
-		if (isset($_COOKIE["mi_lang"])) {
-			$lang = $_COOKIE['mi_lang'];
-			if ($lang == 's2') {
-				setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
-			} else {
-				setcookie('mi_lang', 's2', time()+60*60*24*300, "/");
-			}
-		} else {
-			setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
-		}
-		echo $lang;
+//		if (isset($_COOKIE["mi_lang"])) {
+//			$lang = $_COOKIE['mi_lang'];
+//			if ($lang == 's2') {
+//				setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
+//			} else {
+//				setcookie('mi_lang', 's2', time()+60*60*24*300, "/");
+//			}
+//		} else {
+//			setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
+//		}
+//		echo $lang;
         break;
     case 'form':
         \Bitrix\Main\Loader::includeModule('form');
@@ -206,11 +206,11 @@ switch ($action) {
             ];
             $user = new CUser;
             $user->Update($request->get('user'),$arFields);
-            if($arFields['UF_LANG'] == 'RU'){
-				setcookie('mi_lang', 's2', time()+60*60*24*300, "/");
-            }if($arFields['UF_LANG'] == 'EN'){
-				setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
-            }
+//            if($arFields['UF_LANG'] == 'RU'){
+//				setcookie('mi_lang', 's2', time()+60*60*24*300, "/");
+//            }if($arFields['UF_LANG'] == 'EN'){
+//				setcookie('mi_lang', 's1', time()+60*60*24*300, "/");
+//            }
             if($user == false){
                 throw new Exception($user->LAST_ERROR);
             }
